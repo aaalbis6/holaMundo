@@ -1,0 +1,68 @@
+
+Tipos de Datos
+
+nombre = "chanchito" -> String
+edad = 36 -> integer
+calzado = 9.5 -> float
+casado = true -> boolean
+letra = "a" -> char
+
+
+Instrucciones-> Algoritmo es un set de Instrucciones
+
+
+funtion entrarALacasa():
+1. caminar a la puerta
+2. levantar la mano
+3. abrir la manija
+4. entrar
+5. girar
+6. cerrar la puerta
+
+
+entrarALacasa()
+
+funtion entrarALacasa()
+1. corremos hacia la ventana
+2. saltamos
+3. nos hacemos bolita
+
+
+Personas{                -> Clase : Plano de construccion
+    edad: integer
+    nombre:  String
+    colorCabello: String
+    decirNombre():              ->  metodo: Es como una funtion que se encuantra dentro de un objeto (al ponerla en la case va a estar en cada objeto)
+        hable {tu nombre}
+
+}
+
+ personaAndres = {       ->Objeto: Es una instancia de la clase Personas 
+    edad : 37
+    nombre : "Andres"
+    colorCabello : "negro"
+    
+ }
+
+ personaChanchito = new Persona(       
+    edad : 25
+    nombre : "chanchito"
+    colorCabello : "Castaño"
+    
+ )
+
+
+
+funtion entrarALacasa(persona):
+  if persona.edad > 17:
+        correr hacia la ventana
+        saltar
+        hacerse bolita
+
+ else:
+        vete de aqui
+
+
+funtion entrarALacasa(persona):   ->Bug: Si la puerta esta cerrada arroja un error  ¡Puerta cerrada!
+ acercarse a la puerta
+ caminar hadcia delante
